@@ -1,5 +1,6 @@
 # Mobile Automation Framework
-Framework for mobile automation project structure setup
+
+A Maven custom archetype to generate project tree structure for mobile automation
 
 # How to run
 
