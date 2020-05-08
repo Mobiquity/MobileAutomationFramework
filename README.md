@@ -1,7 +1,7 @@
-#Mobile Automation Framework
+# Mobile Automation Framework
 Framework for mobile automation project structure setup
 
-#How to run
+# How to run
 
 1. Download the framework.
 2. Navigate to root of project.
