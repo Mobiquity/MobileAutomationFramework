@@ -1,1 +1,2 @@
-# MobileAutomationFramework
+# AppiumJavaFramework
+Mobile Automation Framework

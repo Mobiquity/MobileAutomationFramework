@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Main Test Suite" parallel="tests" verbose="1">
+    <listeners>
+        <listener class-name="Reporting.TestListener"/>
+        <listener class-name="Utilities.PriorityInterceptor"/>
+    </listeners>
+<test name="MobileAutomationTesting">
+    <parameter name="groups" value="${test.groups}" />
+    <groups>
+        <run>
+            <include name="${test.groups}"/>
+        </run>
+    </groups>
+    <classes>
+        <class name="Tests.TestHomepage"/>
+    </classes>
+</test>
+</suite>
+
+

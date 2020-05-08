@@ -1,0 +1,86 @@
+<archetype-descriptor xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd">
+    <fileSets>
+        <fileSet>
+            <directory>src/main/resources</directory>
+            <includes>
+                <include>log4j.properties</include>
+                <include>appium.xcconfig</include>
+            </includes>
+        </fileSet>
+
+        <fileSet>
+            <directory>src/main/resources/Applications/</directory>
+            <includes>
+                <include>.gitKeep</include>
+            </includes>
+        </fileSet>
+
+        <fileSet>
+            <directory>src/main/java/Interfaces</directory>
+            <includes>
+                <include>ClassObjects.java</include>
+            </includes>
+        </fileSet>
+
+        <fileSet>
+            <directory>src/main/java/Pages</directory>
+            <includes>
+                <include>Homepage.java</include>
+            </includes>
+        </fileSet>
+
+        <fileSet>
+            <directory>src/main/java/Reporting</directory>
+            <includes>
+                <include>ExtentManager.java</include>
+                <include>TestListener.java</include>
+            </includes>
+        </fileSet>
+
+        <fileSet>
+            <directory>src/main/java/Setup</directory>
+            <includes>
+                <include>DeviceSettings.java</include>
+                <include>TestSetup.java</include>
+            </includes>
+        </fileSet>
+
+        <fileSet>
+            <directory>src/main/java/Utilities</directory>
+            <includes>
+                <include>Log.java</include>
+                <include>TestUtils.java</include>
+                <include>PriorityInterceptor.java</include>
+            </includes>
+        </fileSet>
+
+
+        <fileSet>
+            <directory>src/test/java/Testdata</directory>
+            <includes>
+                <include>expectedResults.json</include>
+                <include>staticRealData.json</include>
+                <include>staticMockData.json</include>
+            </includes>
+        </fileSet>
+
+
+        <fileSet>
+            <directory>src/test/java/Tests</directory>
+            <includes>
+                <include>TestHomepage.java</include>
+            </includes>
+        </fileSet>
+
+        <fileSet filtered="true" packaged="false" encoding="UTF-8">
+            <directory/>
+            <includes>
+                <include>testng.xml</include>
+                <include>ReadMe.txt</include>
+            </includes>
+        </fileSet>
+
+
+    </fileSets>
+</archetype-descriptor>
