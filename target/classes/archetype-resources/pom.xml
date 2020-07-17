@@ -22,6 +22,7 @@
         <compiler-pluginVersion>3.8.0</compiler-pluginVersion>
         <surefire-pluginVersion>2.22.2</surefire-pluginVersion>
         <extentReportVersion>2.41.2</extentReportVersion>
+        <commonLangVersion>3.10</commonLangVersion>
 
         <project.java.version>1.8</project.java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -81,6 +82,11 @@
             <artifactId>json-path</artifactId>
             <version>${restJsonPathVersion}</version>
         </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commonLangVersion}</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -108,5 +114,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

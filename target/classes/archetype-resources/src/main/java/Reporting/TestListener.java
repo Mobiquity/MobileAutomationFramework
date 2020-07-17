@@ -1,8 +1,5 @@
 package Reporting;
 
-/*Created by: Enosh Justin
-  Date: 25 April 2020*/
-
 import Utilities.Log;
 import com.relevantcodes.extentreports.LogStatus;
 import org.openqa.selenium.OutputType;

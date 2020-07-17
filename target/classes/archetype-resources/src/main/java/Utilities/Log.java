@@ -1,8 +1,5 @@
 package Utilities;
 
-/*Created by: Enosh Justin
-  Date: 25 April 2020*/
-
 import org.apache.log4j.Logger;
 
 public class Log {

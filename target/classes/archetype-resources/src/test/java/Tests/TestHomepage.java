@@ -1,8 +1,5 @@
 package Tests;
 
-/*Created by: Enosh Justin
-  Date: 25 April 2020*/
-
 import Setup.TestSetup;
 import org.testng.annotations.Test;
 

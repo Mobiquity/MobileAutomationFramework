@@ -1,8 +1,5 @@
 package Setup;
 
-/*Created by: Enosh Justin
-  Date: 25 April 2020*/
-
 import Utilities.Log;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;

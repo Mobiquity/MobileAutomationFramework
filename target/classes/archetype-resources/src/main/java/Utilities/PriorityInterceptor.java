@@ -1,4 +1,5 @@
 package Utilities;
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
@@ -11,9 +12,6 @@ import javassist.NotFoundException;
 import org.testng.IMethodInstance;
 import org.testng.IMethodInterceptor;
 import org.testng.ITestContext;
-
-/*Created by: Enosh Justin
-  Date: 25 April 2020*/
 
 public class PriorityInterceptor implements IMethodInterceptor {
     public List<IMethodInstance> intercept(List<IMethodInstance> methods, ITestContext context) {

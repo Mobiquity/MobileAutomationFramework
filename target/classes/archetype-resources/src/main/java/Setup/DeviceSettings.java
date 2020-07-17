@@ -1,8 +1,5 @@
 package Setup;
 
-/*Created by: Enosh Justin
-  Date: 25 April 2020*/
-
 import io.appium.java_client.remote.AndroidMobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
