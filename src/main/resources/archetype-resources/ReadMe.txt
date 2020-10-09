@@ -34,5 +34,14 @@ Maven - Maven is a build automation tool used primarily for Java projects.
 3. Install appium via npm "npm install -g appium"
 
 #How to run.
-1. To run the test execute below command
-    "maven clean test -Dplatform=<ios/android> -DtestDataType=<real/mock> -Dgroups=<groupName> -Denv=<Enviroment>"
+1. To run the test in real android device execute below command
+    "mvn test -Dplatform=android -DtestDataType=real/mock -Dgroups=<groupName> -Denv=<envName> -Dtarget=androidDevice"
+
+2. To run the test in real iOS device execute below command
+    "mvn test -Dplatform=iOS -DtestDataType=real/mock -Dgroups=<groupName> -Denv=<envName> -DdeviceName=<deviceName> -Dtarget=iPhone"
+
+3. To run the test in android emulator execute below command
+    "mvn test -Dplatform=android -DtestDataType=real/mock -Dgroups=<groupName> -Denv=<envName> -DavdName=<avdName> -Dtarget=avd"
+
+4. To run the test in iOS simulator execute below command
+    "mvn test -Dplatform=iOS -DtestDataType=real/mock -Dgroups=<groupName> -Denv=<envName> -Dtarget=simulator"
